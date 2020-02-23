@@ -39,7 +39,7 @@ package com.jeremy.leetcode;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+public class Leetcode1013 {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
         for (int i : A) {

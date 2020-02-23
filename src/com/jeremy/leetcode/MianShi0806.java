@@ -33,7 +33,7 @@ import java.util.List;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+public class MianShi0806 {
     public void hanota(List<Integer> A, List<Integer> B, List<Integer> C) {
         move(A.size(), A, B, C);
     }
