@@ -1,5 +1,6 @@
 package com.jeremy.leetcode;
 
+public class Leetcode1013 {
 //给定一个整数数组 A，只有我们可以将其划分为三个和相等的非空部分时才返回 true，否则返回 false。
 //
 // 形式上，如果我们可以找出索引 i+1 < j 且满足 (A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ...
@@ -38,33 +39,34 @@ package com.jeremy.leetcode;
 // Related Topics 数组
 
 
-//leetcode submit region begin(Prohibit modification and deletion)
-public class Leetcode1013 {
-    public boolean canThreePartsEqualSum(int[] A) {
-        int sum = 0;
-        for (int i : A) {
-            sum += i;
-        }
-
-        boolean flag = sum % 3 == 0;
-        if (flag) {
-            int target = sum / 3;
-            int temp = 0;
-            int times = 0;
-
-            for (int i = 0; i < A.length; i++) {
-                temp += A[i];
-                if (temp == target) {
-                    temp = 0;
-                    times++;
-                }
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public boolean canThreePartsEqualSum(int[] A) {
+            int sum = 0;
+            for (int i : A) {
+                sum += i;
             }
-            return times == 3;
-        } else {
-            // 数组总和不能被3整除则肯定不能有三个和相等的子数组
-            return false;
+
+            boolean flag = sum % 3 == 0;
+            if (flag) {
+                int target = sum / 3;
+                int temp = 0;
+                int times = 0;
+
+                for (int i = 0; i < A.length; i++) {
+                    temp += A[i];
+                    if (temp == target) {
+                        temp = 0;
+                        times++;
+                    }
+                }
+                return times == 3;
+            } else {
+                // 数组总和不能被3整除则肯定不能有三个和相等的子数组
+                return false;
+            }
         }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
+}
