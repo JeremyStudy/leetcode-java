@@ -1,5 +1,6 @@
 # leetcode-java
 ## 已解题
+- `简单` 7 [整数反转](https://leetcode-cn.com/problems/reverse-integer/) `待优化`
 - `简单` 83 [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - `简单` 101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 - `简单` 118	[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)
