@@ -5,6 +5,7 @@
 - `简单` 70 [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 - `简单` 83 [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - `简单` 101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+- `简单` 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - `简单` 118	[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)
 - `简单` 119	[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii)
 - `简单` 1013 [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)
