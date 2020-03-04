@@ -8,6 +8,7 @@
 - `简单` 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - `简单` 118	[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)
 - `简单` 119	[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii)
+- `简单` 784 [字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/)
 - `简单` 804 [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)
 - `简单` 1013 [将数组分成和相等的三个部分](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum)
 - `中等` 1338 [数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)
